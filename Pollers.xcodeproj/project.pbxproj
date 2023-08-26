@@ -106,12 +106,12 @@
 		D9C56F122A998C9200DC2847 /* Pollers */ = {
 			isa = PBXGroup;
 			children = (
+				D9C56F152A998C9200DC2847 /* ContentView.swift */,
 				D9C56F472A99993800DC2847 /* NewCandidateView.swift */,
 				D9C56F412A99921900DC2847 /* CandidateDetailView.swift */,
 				D9C56F3F2A99920100DC2847 /* Candidate.swift */,
 				D9C56F3D2A9991E700DC2847 /* Candidate+SampleData.swift */,
 				D9C56F132A998C9200DC2847 /* PollersApp.swift */,
-				D9C56F152A998C9200DC2847 /* ContentView.swift */,
 				89A00BDD2A99982E0007203D /* CommunismView.swift */,
 				D9C56F432A99924600DC2847 /* CandidatesManager.swift */,
 				D9C56F172A998C9400DC2847 /* Assets.xcassets */,

@@ -9,13 +9,23 @@ import SwiftUI
 
 struct NewCandidateView: View {
     @State private var name = ""
-    	
+    @State private var age = 21
+    
     var body: some View {
-        Form{
-            Section("Info"){
-                TextField("Name",text: $name)
+     /*   Form {
+            
+            
+            
+            Section("Name") {
+                TextField("Enter name", text: $name)
             }
-        }
+            
+            Section("Age") {
+                Slider(value: $age, in: 21...99)
+                Text("\(age)")
+            }
+        }*/
+        Text("hello")
     }
 }
 
