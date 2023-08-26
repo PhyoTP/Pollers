@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct CommunismView: View {
-    @State private var population = 10000
+    @State private var population = Int.random(in: 12049824..<100000000)
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     var body: some View {
         ZStack{
