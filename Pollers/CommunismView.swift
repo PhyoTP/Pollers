@@ -6,6 +6,10 @@ struct CommunismView: View {
             LinearGradient(colors: [.black,.red,.yellow], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .ignoresSafeArea()
             VStack{
+                Text("COMMUNISM")
+                    .font(.title)
+                    .bold()
+                    
                 Image("saumil")
                 
             }
