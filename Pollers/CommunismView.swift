@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Communism_View: View {
+struct CommunismView: View {
     var body: some View {
 
             VStack{
@@ -19,8 +19,8 @@ struct Communism_View: View {
     }
 
 
-struct Communism_View_Previews: PreviewProvider {
+struct CommunismView_Previews: PreviewProvider {
     static var previews: some View {
-        Communism_View()
+        CommunismView()
     }
 }

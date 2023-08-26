@@ -42,7 +42,7 @@ struct ContentView: View {
                     }
                 }
                 ToolbarItem {
-                    NavigationLink(destination: Communism_View()) {
+                    NavigationLink(destination: CommunismView()) {
                         Image(systemName: "s.circle")
                     }
                     }
