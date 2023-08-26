@@ -5,10 +5,13 @@
 //  Created by T Krobot on 26/8/23.
 //
 import SwiftUI
+import SymbolPicker
 
 struct CandidateDetailView: View {
     
     @Binding var candidate: Candidate
+    @State private var iconPickerPresented = false
+    @State private var icon = "pencil"
     
     var body: some View {
         Form {
@@ -26,6 +29,21 @@ struct CandidateDetailView: View {
                 Button("Vote for this candidate") {
                     candidate.votes += 1
                 }
+            }
+            
+            Section("Symbol") {
+                Text("test")
+                Button(action: {
+                            iconPickerPresented = true
+                         }) {
+                            HStack {
+                                Image(systemName: icon)
+                                Text(icon)
+                            }
+                        }
+                        .sheet(isPresented: $iconPickerPresented) {
+                            SymbolPicker(symbol: $icon)
+                        }
             }
             
         }
