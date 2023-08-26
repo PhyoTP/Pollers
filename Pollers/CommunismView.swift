@@ -6,11 +6,14 @@ struct CommunismView: View {
             
             VStack{
                 NavigationStack{
+                    LinearGradient(colors: [.black,.red,.yellow], startPoint: .topLeading, endPoint: .bottomTrailing)
+                        .ignoresSafeArea()
+                    
                     
                 }
+                .navigationTitle("Candidates")
             }
-            LinearGradient(colors: [.black,.red,.yellow], startPoint: .topLeading, endPoint: .bottomTrailing)
-                .ignoresSafeArea()
+            
         }
         
     }
