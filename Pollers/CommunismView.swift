@@ -6,7 +6,9 @@ struct CommunismView: View {
             LinearGradient(colors: [.black,.red,.yellow], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .ignoresSafeArea()
             VStack{
-       //         List("Saumil")
+                NavigationStack{
+                    
+                }
             }
             
         }
