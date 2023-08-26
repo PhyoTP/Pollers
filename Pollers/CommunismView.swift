@@ -1,23 +1,20 @@
-//
-//  Communism.View.swift
-//  Pollers
-//
-//  Created by yoeh iskandar on 26/8/23.
-//
-
 import SwiftUI
 
 struct CommunismView: View {
     var body: some View {
-
+        ZStack{
+            
             VStack{
-                Text("COMUNISMMMMM")
-                    .font(.title)
+                NavigationStack{
+                    
+                }
             }
-        
+            LinearGradient(colors: [.black,.red,.yellow], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .ignoresSafeArea()
         }
-      
+        
     }
+}
 
 
 struct CommunismView_Previews: PreviewProvider {
