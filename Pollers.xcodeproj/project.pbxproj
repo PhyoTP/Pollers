@@ -18,6 +18,7 @@
 		D9C56F402A99920100DC2847 /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C56F3F2A99920100DC2847 /* Candidate.swift */; };
 		D9C56F422A99921900DC2847 /* CandidateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C56F412A99921900DC2847 /* CandidateDetailView.swift */; };
 		D9C56F442A99924600DC2847 /* CandidatesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C56F432A99924600DC2847 /* CandidatesManager.swift */; };
+		D9C56F482A99993800DC2847 /* NewCandidateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C56F472A99993800DC2847 /* NewCandidateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D9C56F3F2A99920100DC2847 /* Candidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
 		D9C56F412A99921900DC2847 /* CandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateDetailView.swift; sourceTree = "<group>"; };
 		D9C56F432A99924600DC2847 /* CandidatesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesManager.swift; sourceTree = "<group>"; };
+		D9C56F472A99993800DC2847 /* NewCandidateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCandidateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		D9C56F122A998C9200DC2847 /* Pollers */ = {
 			isa = PBXGroup;
 			children = (
+				D9C56F472A99993800DC2847 /* NewCandidateView.swift */,
 				D9C56F412A99921900DC2847 /* CandidateDetailView.swift */,
 				D9C56F3F2A99920100DC2847 /* Candidate.swift */,
 				D9C56F3D2A9991E700DC2847 /* Candidate+SampleData.swift */,
@@ -272,6 +275,7 @@
 				D9C56F162A998C9200DC2847 /* ContentView.swift in Sources */,
 				D9C56F142A998C9200DC2847 /* PollersApp.swift in Sources */,
 				D9C56F3E2A9991E700DC2847 /* Candidate+SampleData.swift in Sources */,
+				D9C56F482A99993800DC2847 /* NewCandidateView.swift in Sources */,
 				D9C56F442A99924600DC2847 /* CandidatesManager.swift in Sources */,
 				D9C56F422A99921900DC2847 /* CandidateDetailView.swift in Sources */,
 				D9C56F402A99920100DC2847 /* Candidate.swift in Sources */,

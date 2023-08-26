@@ -32,6 +32,14 @@ struct ContentView: View {
                     } label: {
                         Label("Load sample data", systemImage: "clipboard")
                     }
+                    
+                }
+                ToolbarItem{
+                    Button{
+                        
+                    }label:{
+                        Label("Elect another candidate", systemImage: "person.badge.plus")
+                    }
                 }
             }
         }
