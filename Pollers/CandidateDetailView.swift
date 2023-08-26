@@ -11,7 +11,7 @@ struct CandidateDetailView: View {
     
     @Binding var candidate: Candidate
     @State private var iconPickerPresented = false
-    @State private var icon = "pencil"
+    @State private var icon = "Communism 👍"
     
     var body: some View {
         Form {
@@ -32,7 +32,7 @@ struct CandidateDetailView: View {
             }
             
             Section("Symbol") {
-                Text("test")
+                Text("Symbol")
                 Button(action: {
                             iconPickerPresented = true
                          }) {
