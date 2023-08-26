@@ -41,6 +41,13 @@ struct ContentView: View {
                         Label("Elect another candidate", systemImage: "person.badge.plus")
                     }
                 }
+                ToolbarItem {
+                    Button {
+                        print("No women?")
+                    } label: {
+                    Label("COMMUNISM", systemImage: "s.circle")
+                    }
+                }
             }
         }
     }
