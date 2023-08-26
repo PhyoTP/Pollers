@@ -18,6 +18,7 @@ struct ContentView: View {
                     CandidateDetailView(candidate: $candidate)
                 } label: {
                     HStack {
+                        Image(systemName: candidate.symbol)
                         Text(candidate.name)
                         Spacer()
                         Text("\(candidate.votes)")
