@@ -37,12 +37,12 @@ struct CandidateDetailView: View {
                             iconPickerPresented = true
                          }) {
                             HStack {
-                                Image(systemName: icon)
-                                Text(icon)
+                                Image(systemName: candidate.symbol)
+                                Text(candidate.symbol)
                             }
                         }
                         .sheet(isPresented: $iconPickerPresented) {
-                            SymbolPicker(symbol: $icon)
+                            SymbolPicker(symbol: $candidate.symbol)
                         }
             }
             
