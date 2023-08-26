@@ -34,6 +34,6 @@ struct CandidateDetailView: View {
 
 struct CandidateDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        CandidateDetailView(candidate: .constant(Candidate(name: "Demo", age: 50, numberOfCats: 2, amountOfHair: 0.5)))
+        CandidateDetailView(candidate: .constant(Candidate(name: "Demo", age: 50, numberOfCats: 2, amountOfHair: 0.5,symbol: "person")))
     }
 }

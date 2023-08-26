@@ -16,4 +16,5 @@ struct Candidate: Identifiable, Codable {
     var numberOfCats: Double
     var amountOfHair: Double // between 0 and 1
     var votes: Int = 0
+    var symbol: String
 }

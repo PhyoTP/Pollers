@@ -11,9 +11,9 @@ import Foundation
 extension Candidate {
     
     static let sampleCandidates = [
-        Candidate(name: "Comrade Potato", age: 60, numberOfCats: 0, amountOfHair: 0.9),
-        Candidate(name: "Definitely not YJ", age: 50, numberOfCats: 1, amountOfHair: 0.7),
-        Candidate(name: "Comrade Seen", age: 55, numberOfCats: 3, amountOfHair: 0.1)
+        Candidate(name: "Comrade Carrot", age: 60, numberOfCats: 0, amountOfHair: 0.9, symbol: "carrot"),
+        Candidate(name: "Definitely not YJ", age: 50, numberOfCats: 1, amountOfHair: 0.7, symbol: "person.crop.circle.badge.questionmark"),
+        Candidate(name: "Comrade Seen", age: 55, numberOfCats: 3, amountOfHair: 0.1,symbol: "eye.fill")
     ]
     
 }
