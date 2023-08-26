@@ -8,12 +8,13 @@ struct CommunismView: View {
                 .ignoresSafeArea()
             VStack{
                 Text("COMMUNISM")
-                    .font(.title)
+                    .font(.system(size:50))
                     .bold()
                     .foregroundColor(.red)
                     .offset(y: -100)
                     
                 Image("saumil")
+                    .cornerRadius(1000)
                 HStack{
                     Button{
                         population += 1
