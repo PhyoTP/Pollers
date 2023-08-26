@@ -42,16 +42,15 @@ struct ContentView: View {
                     }
                 }
                 ToolbarItem {
-                    Button {
-                        print("No women?")
-                    } label: {
-                    Label("COMMUNISM", systemImage: "s.circle")
+                    NavigationLink(destination: Communism_View()) {
+                        Image(systemName: "s.circle")
+                    }
                     }
                 }
             }
         }
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
