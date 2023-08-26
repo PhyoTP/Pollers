@@ -2,8 +2,10 @@ import SwiftUI
 
 struct CommunismView: View {
     @State private var population = 10000
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     var body: some View {
         ZStack{
+            
             LinearGradient(colors: [.black,.red,.yellow], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .ignoresSafeArea()
             VStack{
@@ -31,6 +33,9 @@ struct CommunismView: View {
                     
                 }
                 Text("\(population) comrades")
+                    .onReceive(timer) { time in
+                        population += Int.random(in: 1..<10000)
+                        }
             }
         }
         
