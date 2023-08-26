@@ -10,6 +10,8 @@ struct CommunismView: View {
                 Text("COMMUNISM")
                     .font(.title)
                     .bold()
+                    .foregroundColor(.red)
+                    .offset(y: -100)
                     
                 Image("saumil")
                 HStack{
