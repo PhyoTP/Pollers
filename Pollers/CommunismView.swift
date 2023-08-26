@@ -7,7 +7,14 @@ struct CommunismView: View {
             LinearGradient(colors: [.black,.red,.yellow], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .ignoresSafeArea()
             VStack{
+                Text("COMMUNISM")
+                    .font(.system(size:50))
+                    .bold()
+                    .foregroundColor(.red)
+                    .offset(y: -100)
+                    
                 Image("saumil")
+                    .cornerRadius(1000)
                 HStack{
                     Button{
                         population += 1
