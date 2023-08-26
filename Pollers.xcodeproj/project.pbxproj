@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89A00BDE2A99982E0007203D /* CommunismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A00BDD2A99982E0007203D /* CommunismView.swift */; };
 		D9C56F142A998C9200DC2847 /* PollersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C56F132A998C9200DC2847 /* PollersApp.swift */; };
 		D9C56F162A998C9200DC2847 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C56F152A998C9200DC2847 /* ContentView.swift */; };
 		D9C56F182A998C9400DC2847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C56F172A998C9400DC2847 /* Assets.xcassets */; };
@@ -40,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		89A00BDD2A99982E0007203D /* CommunismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunismView.swift; sourceTree = "<group>"; };
 		D9C56F102A998C9200DC2847 /* Pollers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C56F132A998C9200DC2847 /* PollersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollersApp.swift; sourceTree = "<group>"; };
 		D9C56F152A998C9200DC2847 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				D9C56F3D2A9991E700DC2847 /* Candidate+SampleData.swift */,
 				D9C56F132A998C9200DC2847 /* PollersApp.swift */,
 				D9C56F152A998C9200DC2847 /* ContentView.swift */,
-				89A00BDD2A99982E0007203D /* CommunismView.swift */,
 				D9C56F432A99924600DC2847 /* CandidatesManager.swift */,
 				D9C56F172A998C9400DC2847 /* Assets.xcassets */,
 				D9C56F192A998C9400DC2847 /* Preview Content */,
@@ -275,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A00BDE2A99982E0007203D /* CommunismView.swift in Sources */,
 				D9C56F162A998C9200DC2847 /* ContentView.swift in Sources */,
 				D9C56F142A998C9200DC2847 /* PollersApp.swift in Sources */,
 				D9C56F3E2A9991E700DC2847 /* Candidate+SampleData.swift in Sources */,
