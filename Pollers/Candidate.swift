@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Candidate: Identifiable, Codable {
+    
+    var id = UUID()
+    var name: String
+    var age: Double
+    var numberOfCats: Double
+    var amountOfHair: Double // between 0 and 1
+    var votes: Int = 0
+}
