@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @StateObject private var candidateManager = CandidateManager()
-    
+    @State private var showNewCandidateSheet = false
     var body: some View {
         NavigationStack {
             List($candidateManager.candidates) { $candidate in
@@ -36,7 +36,7 @@ struct ContentView: View {
                 }
                 ToolbarItem{
                     Button{
-                        
+                        showNewCandidateSheet = true
                     }label:{
                         Label("Elect another candidate", systemImage: "person.badge.plus")
                     }
@@ -47,6 +47,9 @@ struct ContentView: View {
                     }
                     }
                 }
+            }
+            .sheet(isPresented: $showNewCandidateSheet){
+                NewCandidateView()
             }
         }
     }
