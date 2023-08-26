@@ -14,6 +14,7 @@ struct CommunismView: View {
                 Text("COMUNISMMMMM")
                     .font(.title)
             }
+        
         }
       
     }
