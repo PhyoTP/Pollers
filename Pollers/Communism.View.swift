@@ -9,11 +9,15 @@ import SwiftUI
 
 struct Communism_View: View {
     var body: some View {
-        VStack{
-            
+
+            VStack{
+                Text("COMUNISMMMMM")
+                    .font(.title)
+            }
         }
+      
     }
-}
+
 
 struct Communism_View_Previews: PreviewProvider {
     static var previews: some View {
