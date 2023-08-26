@@ -41,8 +41,8 @@ struct ContentView: View {
                         Label("Elect another candidate", systemImage: "person.badge.plus")
                     }
                 }
-                ToolbarItem {
-                    NavigationLink(destination: CommunismView()) {
+       //         ToolbarItem {
+             //       NavigationLink(destination: CommunismView()) {
                         Image(systemName: "s.circle")
                     }
                     }
@@ -52,7 +52,7 @@ struct ContentView: View {
                 NewCandidateView()
             }
         }
-    }
+  //  }
 
 
 struct ContentView_Previews: PreviewProvider {
